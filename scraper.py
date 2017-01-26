@@ -2,7 +2,7 @@ import BeautifulSoup, scraperwiki, datetime
 
 scraperwiki.metadata.save('data_columns', ['id', 'date', 'street', 'city', 'postcode', 'livingspace', 'otherspace', 'price'])
 
-city = 'amsterdam'
+city = 'den bosch'
 minPrice=str(200000)
 maxPrice=str(400000)
 minOpp=str(75)
